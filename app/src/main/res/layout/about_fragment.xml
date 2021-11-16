@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="60dp"
+        android:gravity="center|top"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Keep Everyone Safe"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AROUND YOU"
+            android:textColor="#1AA53B"
+            android:textSize="14pt"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_marginTop="12dp"
+            android:textAlignment="center"
+            android:id="@+id/info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+            android:layout_marginTop="12dp"
+            android:textAlignment="center"
+            android:id="@+id/info2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <View
+            android:layout_width="60dp"
+            android:layout_height="1dp"
+            android:layout_margin="10dp"
+            android:background="#1AA53B" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="in Collaboration with"
+            android:textStyle="italic"
+            />
+
+        <TextView
+            android:textAlignment="center"
+            android:id="@+id/collab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textStyle="bold"
+            />
+
+        <View
+            android:layout_margin="10dp"
+            android:layout_width="60dp"
+            android:layout_height="1dp"
+            android:background="#1AA53B"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Find us on"
+            android:textStyle="italic"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="12dp"
+            >
+
+            <ImageView
+                android:id="@+id/instagram"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/instagram"
+                android:layout_marginStart="12dp"
+                />
+
+            <ImageView
+                android:id="@+id/facebook"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/facebook"
+                android:layout_marginStart="12dp"
+                />
+
+            <ImageView
+                android:id="@+id/whatsapp"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/whatsapp"
+                android:layout_marginStart="12dp"
+                />
+
+            <ImageView
+                android:id="@+id/web"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/web"
+                android:layout_marginStart="12dp"
+                />
+
+            <ImageView
+                android:id="@+id/call"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/call"
+                android:layout_marginStart="12dp"
+                />
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

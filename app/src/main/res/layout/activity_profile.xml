@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Keep Everyone Safe"
+            android:textStyle="italic"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AROUND YOU"
+            android:textStyle="bold"
+            android:textColor="#1AA53B"
+            android:textSize="14pt"
+            />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profileImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_baseline_account_circle_24"
+            android:layout_marginTop="20dp"
+            />
+
+        <TextView
+            android:id="@+id/profileName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="6dp"
+            />
+
+
+
+        <TextView
+            android:id="@+id/profileLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID, Yogyakarta"
+            android:textSize="12sp"
+            />
+
+        <View
+            android:layout_margin="10dp"
+            android:layout_width="60dp"
+            android:layout_height="1dp"
+            android:background="#1AA53B"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HELPED"
+            android:textStyle="bold"
+            android:textColor="#1AA53B"
+            />
+
+        <TextView
+            android:id="@+id/profileHelped"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:layout_marginTop="6dp"
+            />
+
+        <View
+            android:id="@+id/closeProfile"
+            android:layout_margin="10dp"
+            android:layout_width="60dp"
+            android:layout_height="1dp"
+            android:background="#777777"
+            />
+
+        <TextView
+            android:layout_marginTop="60dp"
+            android:id="@+id/txtVerify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email is not verified"
+
+            />
+
+        <Button
+            android:id="@+id/btnVerify"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Verify Now"
+            android:backgroundTint="#F44336"
+            android:layout_marginTop="12dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            />
+
+        <Button
+
+            android:id="@+id/btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LOGOUT"
+            android:onClick="logout"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</RelativeLayout>

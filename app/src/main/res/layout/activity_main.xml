@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:backgroundTint="#EEEEEE"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Keep Everyone Safe"
+        android:textStyle="italic"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AROUND YOU"
+        android:textStyle="bold"
+        android:textColor="#1AA53B"
+        android:textSize="14pt"
+        />
+
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="email"
+        android:textColor="#707070"
+        android:textColorHint="#707070"
+        android:background="@drawable/edit_text_bg"
+        android:padding="18dp"
+        android:inputType="textPersonName"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+
+        />
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="password"
+        android:textColor="#707070"
+        android:textColorHint="#707070"
+        android:background="@drawable/edit_text_bg"
+        android:padding="18dp"
+        android:inputType="textPassword"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+
+        />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#1AA53B"
+        android:text="LOGIN"
+        android:layout_marginTop="14dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        >
+
+
+    </Button>
+
+    <TextView
+        android:id="@+id/btnToRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="i want register account"
+        android:textStyle="italic"
+        android:layout_marginTop="4dp"
+        android:textSize="10sp"
+        />
+
+    <TextView
+        android:id="@+id/btnToForgetPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forget Password ?"
+        android:layout_marginTop="10dp"
+        android:textSize="10sp"
+        />
+
+</LinearLayout>

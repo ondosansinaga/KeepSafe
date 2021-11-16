@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".RegisterActivity"
+    android:backgroundTint="#EEEEEE">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Keep Everyone Safe"
+        android:textStyle="italic"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AROUND YOU"
+        android:textStyle="bold"
+        android:textColor="#1AA53B"
+        android:textSize="14pt"
+        />
+
+    <EditText
+        android:id="@+id/editNik"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="nik"
+        android:textColor="#707070"
+        android:textColorHint="#707070"
+        android:background="@drawable/edit_text_bg"
+        android:padding="18dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:id="@+id/editEmailRegister"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="email"
+        android:textColor="#707070"
+        android:textColorHint="#707070"
+        android:background="@drawable/edit_text_bg"
+        android:padding="18dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:inputType="textEmailSubject"
+        />
+
+    <EditText
+        android:id="@+id/editPasswordRegister"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="password"
+        android:textColor="#707070"
+        android:textColorHint="#707070"
+        android:background="@drawable/edit_text_bg"
+        android:padding="18dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:inputType="textPassword"
+        />
+
+    <EditText
+        android:id="@+id/editRePasswordRegister"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="retype password"
+        android:textColor="#707070"
+        android:textColorHint="#707070"
+        android:background="@drawable/edit_text_bg"
+        android:padding="18dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#1AA53B"
+        android:text="REGISTER"
+        android:layout_marginTop="14dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Automatically agree to "
+            android:layout_marginTop="4dp"
+            android:textSize="10sp"
+            />
+
+        <TextView
+            android:id="@+id/btnTAndC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Terms &amp; Conditions"
+            android:textStyle="italic"
+            android:layout_marginTop="4dp"
+            android:textSize="10sp"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/btnToLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="i already have an account"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp"
+        android:textSize="10sp"
+        />
+
+
+
+
+
+
+</LinearLayout>
